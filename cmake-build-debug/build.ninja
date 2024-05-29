@@ -115,6 +115,24 @@ build CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixD
   OBJECT_DIR = CMakeFiles\aizop2.dir
   OBJECT_FILE_DIR = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Dijkstra\Struct
 
+build CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.cpp.obj: CXX_COMPILER__aizop2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/aizop2/Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.cpp || cmake_object_order_depends_target_aizop2
+  DEP_FILE = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Util\FordBellmanMenu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aizop2.dir
+  OBJECT_FILE_DIR = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Util
+
+build CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphListFordBellman.cpp.obj: CXX_COMPILER__aizop2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/aizop2/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphListFordBellman.cpp || cmake_object_order_depends_target_aizop2
+  DEP_FILE = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Struct\GraphListFordBellman.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aizop2.dir
+  OBJECT_FILE_DIR = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Struct
+
+build CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphMatrixFordBellman.cpp.obj: CXX_COMPILER__aizop2_unscanned_Debug C$:/Users/Miłosz/CLionProjects/aizop2/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphMatrixFordBellman.cpp || cmake_object_order_depends_target_aizop2
+  DEP_FILE = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Struct\GraphMatrixFordBellman.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aizop2.dir
+  OBJECT_FILE_DIR = CMakeFiles\aizop2.dir\Algorithms\ShortestPath\Ford-Bellman\Struct
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aizop2
@@ -123,7 +141,7 @@ build CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixD
 #############################################
 # Link the executable aizop2.exe
 
-build aizop2.exe: CXX_EXECUTABLE_LINKER__aizop2_Debug CMakeFiles/aizop2.dir/Menu/main.cpp.obj CMakeFiles/aizop2.dir/Menu/MainMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Util/PrimMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Struct/GraphListPrim.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Struct/GraphMatrixPrim.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Util/KruskalMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Struct/GraphListKruskal.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Struct/GraphMatrixKruskal.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.cpp.obj
+build aizop2.exe: CXX_EXECUTABLE_LINKER__aizop2_Debug CMakeFiles/aizop2.dir/Menu/main.cpp.obj CMakeFiles/aizop2.dir/Menu/MainMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Util/PrimMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Struct/GraphListPrim.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Prim/Struct/GraphMatrixPrim.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Util/KruskalMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Struct/GraphListKruskal.cpp.obj CMakeFiles/aizop2.dir/Algorithms/MST/Kruskal/Struct/GraphMatrixKruskal.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphListFordBellman.cpp.obj CMakeFiles/aizop2.dir/Algorithms/ShortestPath/Ford-Bellman/Struct/GraphMatrixFordBellman.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aizop2.dir

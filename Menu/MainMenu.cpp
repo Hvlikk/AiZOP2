@@ -6,12 +6,14 @@
 #include "../Algorithms/MST/Kruskal/Util/KruskalMenu.h"
 #include "../Algorithms/MST/Prim/Util/PrimMenu.h"
 #include "../Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.h"
+#include "../Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.h"
 using namespace std;
 
 void MainMenu::showMenu(){
     PrimMenu primMenu;
     KruskalMenu kruskalMenu;
     DijkstraMenu dijkstraMenu;
+    FordBellmanMenu fordBellmanMenu;
     while(true){
         int x;
         cout << "Wybierz algorytm:\n";
@@ -32,6 +34,7 @@ void MainMenu::showMenu(){
                 dijkstraMenu.showMenu();
                 break;
             case 4:
+                fordBellmanMenu.showMenu();
                 break;
             case 5:
                 exit(0);

@@ -23,4 +23,10 @@ add_executable(aizop2 Menu/main.cpp
         Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.cpp
         Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.h
         Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.cpp
-        Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.h)
+        Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.h
+        Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.cpp
+        Algorithms/ShortestPath/Ford-Bellman/Util/FordBellmanMenu.h
+        Algorithms/ShortestPath/Ford-Bellman/Struct/GraphListFordBellman.cpp
+        Algorithms/ShortestPath/Ford-Bellman/Struct/GraphListFordBellman.h
+        Algorithms/ShortestPath/Ford-Bellman/Struct/GraphMatrixFordBellman.cpp
+        Algorithms/ShortestPath/Ford-Bellman/Struct/GraphMatrixFordBellman.h)
