@@ -5,11 +5,13 @@
 #include "MainMenu.h"
 #include "../Algorithms/MST/Kruskal/Util/KruskalMenu.h"
 #include "../Algorithms/MST/Prim/Util/PrimMenu.h"
+#include "../Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.h"
 using namespace std;
 
 void MainMenu::showMenu(){
     PrimMenu primMenu;
     KruskalMenu kruskalMenu;
+    DijkstraMenu dijkstraMenu;
     while(true){
         int x;
         cout << "Wybierz algorytm:\n";
@@ -27,6 +29,7 @@ void MainMenu::showMenu(){
                 kruskalMenu.showMenu();
                 break;
             case 3:
+                dijkstraMenu.showMenu();
                 break;
             case 4:
                 break;

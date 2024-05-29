@@ -17,4 +17,10 @@ add_executable(aizop2 Menu/main.cpp
         Algorithms/MST/Kruskal/Struct/GraphListKruskal.cpp
         Algorithms/MST/Kruskal/Struct/GraphListKruskal.h
         Algorithms/MST/Kruskal/Struct/GraphMatrixKruskal.cpp
-        Algorithms/MST/Kruskal/Struct/GraphMatrixKruskal.h)
+        Algorithms/MST/Kruskal/Struct/GraphMatrixKruskal.h
+        Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.cpp
+        Algorithms/ShortestPath/Dijkstra/Util/DijkstraMenu.h
+        Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.cpp
+        Algorithms/ShortestPath/Dijkstra/Struct/GraphListDijkstra.h
+        Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.cpp
+        Algorithms/ShortestPath/Dijkstra/Struct/GraphMatrixDijkstra.h)
